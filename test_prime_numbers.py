@@ -12,7 +12,7 @@ class TestPrimeNumbers(unittest.TestCase):
         self.assertFalse(is_prime(1))
     
     def test_find_primes(self):
-        self.assertEqual(find_primes(10), [2, 3, 5])
+        self.assertEqual(find_primes(10), [2, 3, 5, 7])
         self.assertEqual(find_primes(20), [2, 3, 5, 7, 11, 13, 17, 19])
 
 if __name__ == "__main__":
